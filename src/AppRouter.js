@@ -13,8 +13,8 @@ export const AppRouter = () => {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/" component={ Home }/>
-          <Redirect to="/" />
+          <Route exact path="/portafolio" component={ Home }/>
+          <Redirect to="/portafolio" />
         </Switch>
       </div>
     </Router>
